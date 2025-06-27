@@ -1,5 +1,4 @@
 import 'package:been_here_go/components/place_tile.dart';
-import 'package:been_here_go/components/star_rating.dart';
 import 'package:been_here_go/models/place.dart';
 import 'package:been_here_go/providers/auth_provider.dart';
 import 'package:been_here_go/providers/places_provider.dart';
