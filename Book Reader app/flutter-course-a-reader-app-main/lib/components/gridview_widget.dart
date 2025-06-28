@@ -22,7 +22,7 @@ class GridViewWidget extends StatelessWidget {
               return Container(
                 margin: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.surfaceVariant,
+                    color: Theme.of(context).colorScheme.surfaceContainerHighest,
                     borderRadius: const BorderRadius.all(Radius.circular(10))),
                 child: GestureDetector(
                   onTap: () {
