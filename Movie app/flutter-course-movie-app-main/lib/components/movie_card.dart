@@ -25,7 +25,7 @@ class MovieCard extends StatelessWidget {
         children: [
           Container(
             alignment: Alignment.center,
-            padding: EdgeInsets.only(left: 75),
+            padding: const EdgeInsets.only(left: 75),
             child: Column(
               children: [
                 RichText(
