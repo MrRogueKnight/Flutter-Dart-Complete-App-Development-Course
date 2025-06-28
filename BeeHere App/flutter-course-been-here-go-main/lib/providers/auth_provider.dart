@@ -10,7 +10,7 @@ class AuthProvider extends ChangeNotifier {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
   User? get user => _firebaseAuth.currentUser;
-  Uuid uuid = Uuid();
+  Uuid uuid = const Uuid();
 
   Future<void> signOut() async {
     try {
